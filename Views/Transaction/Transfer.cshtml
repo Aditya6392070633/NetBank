@@ -1,0 +1,2 @@
+@model TransferVm
+<h2>Fund Transfer</h2><div class="card p-4"><form method="post"><div asp-validation-summary="All" class="text-danger"></div><label>From Account</label><input asp-for="FromAccount" class="form-control mb-3"><label>To Account</label><input asp-for="ToAccount" class="form-control mb-3"><label>Amount</label><input asp-for="Amount" class="form-control mb-3"><label>Remarks</label><input asp-for="Remarks" class="form-control mb-3"><button class="btn btn-success">Transfer Now</button></form></div>
